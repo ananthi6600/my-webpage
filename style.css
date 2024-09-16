@@ -1,21 +1,17 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(216, 211, 208);
+    background-color: rgb(238, 220, 192);
 }
 
 h1 {
+    color: rgb(204, 111, 6);
     text-align: center;
-    color: rgb(197, 56, 5);
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-top: 0;
-    padding: 1em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for a 3D effect */
+    text-shadow: 1px 1px 3px rgba(56, 43, 34, 0.938); /* Shadow effect for readability */
 }
 
 .landing {
-    background-image: url('bus.jpg');
+    background-image: url('../BusTicketBooking/bus.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -28,18 +24,20 @@ h1 {
 
 h2 {
     text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
     padding: 1em;
-    border-radius: 5px;
     font-size: 2em;
     font-weight: bold;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Shadow effect for readability */
+    text-shadow: 1px 1px 3px rgba(56, 43, 34, 0.938); /* Shadow effect for readability */
+}
+.ex{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: #333; /* Dark gray color */
+    color: #000000; /* Dark gray color */
     font-weight: bold; /* Bold text */
 }
 
@@ -102,7 +100,7 @@ nav select:focus {
     padding: 1em;
     text-align: center;
     justify-content: center;
-    background-color: rgb(252, 252, 252);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
@@ -113,21 +111,22 @@ nav select:focus {
     min-width: 150px;
     margin: 0.5rem;
     padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1em;
     color: #333; /* Dark gray color */
     font-weight: bold; /* Bold text */
     transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth transition */
 }
 
-.center input:focus,
-.center a:hover {
-    border-color: orangered;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Shadow on focus/hover */
+.center input:focus
+ {
+   color: 0 0 8px rgba(0, 0, 0, 0.2); /* Shadow on focus/hover */
     outline: none;
 }
 
+a:hover{
+    color: rgb(250, 142, 19);
+}
 .offers {
     display: flex;
     flex-wrap: wrap;
@@ -221,12 +220,10 @@ p {
 
 .outer{
     display: flex;
-    background-color: #864801;
+    background-color: #df8927;
     border-radius: 10px;
-    width: 70vw;
     margin: auto;
-    align-items: center;
-    text-align: center;
+justify-content: center;
 }
 
 /* Container for the entire section */
@@ -235,9 +232,9 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 65vw;
-    margin: 0px 7em;
+    margin: 2em auto;
     padding: 1em;
-    background-color: #bd6b0e; /* Light gray background for the section */
+    background-color: #ff9925; /* Light gray background for the section */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
@@ -302,6 +299,7 @@ p {
     color: #333; /* Dark gray color */
     font-weight: bold;
     margin: 0.5em 0;
+    padding: 2em;
 }
 
 /* Section with QR code and download prompt */
