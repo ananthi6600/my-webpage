@@ -1,17 +1,18 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(238, 220, 192);
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 1em;
 }
 
 h1 {
-    color: rgb(204, 111, 6);
+    color: rgb(240, 161, 16);
     text-align: center;
     text-shadow: 1px 1px 3px rgba(56, 43, 34, 0.938); /* Shadow effect for readability */
 }
 
 .landing {
-   background-image: url(bus.jpg);
+    background-image: url('../BusTicketBooking/bus.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -161,7 +162,7 @@ a:hover{
 
 .discount {
     padding: 0.5em;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  background-color: rgba(255, 255, 255, 0.9);/*  Slightly transparent background */
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
@@ -233,9 +234,9 @@ justify-content: center;
     justify-content: space-around;
     width: 65vw;
     margin: 2em auto;
-    padding: 1em;
-    background-color: #ff9925; /* Light gray background for the section */
-    border-radius: 10px;
+    padding: .2em;
+    background-color:#333; /* Light gray background for the section */
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
@@ -333,4 +334,77 @@ justify-content: center;
 
 .par{
     margin: 1.5em;
+}
+span{
+    color: orangered;
+}
+
+.under, .under1{
+    margin: 0 1.5em;
+}
+
+.under h3{
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(56, 43, 34, 0.938);
+}
+
+.under p{
+    text-align: justify;
+}
+
+.under1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4em auto;
+}
+.under1 a:hover{
+    color: #000000;
+}
+
+.under1 button{
+    background-color: orangered;
+    border-radius: 15px;
+    border: none;
+    padding: 1.1em;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin: 1em;
+}
+
+.under1 a{
+    margin: 1em;
+}
+
+.footer{
+   margin: 2em auto ;
+}
+
+
+ul{
+    list-style-type: none;
+
+} 
+
+ul li{
+    margin: .5em;
+}
+
+th {
+    color: orangered;
+    text-align: center;
+    margin: 2em;
+}
+
+footer{
+    display: flex;
+}
+.icons{
+    display: flex;
+    gap: 1em;
+}
+
+footer .icons{
+    flex: 1;
 }
