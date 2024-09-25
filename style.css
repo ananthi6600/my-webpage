@@ -186,12 +186,11 @@ a:hover{
     text-transform: uppercase; /* Uppercase text */
 }
 
-/* Styles for tablets and smaller screens */
 @media (max-width: 768px) {
     .landing {
         height: 300px;
     }
-    
+
     .center {
         flex-direction: column;
         margin: 0;
@@ -199,91 +198,13 @@ a:hover{
 
     .offers {
         flex-direction: column;
-        align-items: center;
     }
 
     .offers a {
         max-width: 100%;
     }
-
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav a {
-        margin: 0.5em 0;
-    }
-
-    .outer {
-        flex-direction: column;
-        width: 90vw;
-    }
-
-    .inner3, .inner1, .inner2 {
-        min-width: 90%;
-        margin: 0.5em 0;
-    }
-
-    .under1 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .under1 button {
-        width: 100%;
-        padding: 1em;
-    }
 }
-
-/* Styles for mobile devices */
-@media (max-width: 480px) {
-    h2 {
-        font-size: 1.5em;
-    }
-
-    h1 {
-        font-size: 1.8em;
-    }
-
-    .landing {
-        height: 200px;
-    }
-
-    .center input,
-    .center a {
-        min-width: 100%;
-        margin: 0.5em 0;
-    }
-
-    .discount h5, .discount h6 {
-        font-size: 1em;
-    }
-
-    .inner-inner p {
-        font-size: 1em;
-    }
-
-    .outer {
-        width: 95vw;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer .icons {
-        justify-content: center;
-    }
-}
-
-
+    
 .text {
     font-size: 1em;
     color: #333; /* Dark gray color */
